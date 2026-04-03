@@ -16,7 +16,7 @@
 
 It provides both a **standard protocol**, and a **library of components** implementating the protocol for you to get started —on *any platform* ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-python-16.png) ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-javascript-16.png).
 
-> 🧩 AI made simple. [Bluera Inc.](https://bluera.ai)
+> 🧩 AI made simple. [ollama Inc.](https://ollama.com)
 
 Learn more by clicking the most appropriate option for you:
 <details>
@@ -45,7 +45,7 @@ They can't think, but they can be used to achieve a pre-defined task (eg. execut
 
 Agents are robots, or simply put, *models and tools connected together*. 🤖
 
-> 🤖 = 🧠 + [🔧, 🔧,..]
+🤖 = 🧠 + [🔧, 🔧,..]
 
 They can think *and* act. They typically use a model to decompose a task into a list of actions, and use the appropriate tools to perform these actions.
 
@@ -90,7 +90,7 @@ Agent frameworks (like Langchain, Google ADK, Autogen, CrewAI), each orchestrate
   
 UIN hopes to standardize those building blocks and remove the need for a framework to run/orchestrate them. It also adds a few cool features to these blocks like portability. 
 For example, UIN models are designed to automatically detect the current hardware (cuda, mps, webgpu), its available memory, and run the appropriate quantization and engine for it (eg. transformers, llama.cpp, mlx, web-llm). It allows developers not to have to implement different stacks to support different devices when running models locally, and (maybe more importantly) not to have to know or care about hardware compatibility, so long as they don't try to run a rocket on a gameboy 🙂
-
+`cuda-build`
 </details>
 
 ## Get Started
@@ -238,7 +238,7 @@ model = Model()
 output, logs = model.process('How are you today?') # 'Feeling great! How about you?'
 ```
 
-> Automatically optimized for any supported device 🔥
+Automatically optimized for any supported device 🔥 `lmlm`
 
 ##### Customization Options
 
